@@ -1,0 +1,7 @@
+#!/bin/bash
+header=$1
+ref=$2
+bamName=$3
+bams="${@:4}"
+
+samtools cat -h /data/$header -o /dev/stdout $bams | tmap mapall -n 32 -f /data/$ref -i bam -v -Y -u --prefix-exclude 5 -o 2  -J 25 --end-repair 15 --do-repeat-clip --context stage1 map4 2>> /data/$bamName.new.alignmentQC_out.txt | tee >(ionstats alignment -i /dev/stdin -o /data/$bamName.new.ionstats_alignment.json -k TCAG -h 400 --evaluate-hp true --output-h5 /data/$bamName.new.ionstats_error_summary.h5) | samtools sort -m 1000M -l1 -@12 - /data/$bamName.new
