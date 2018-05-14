@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/samtools"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/samtools.rule"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/samtools-complete.rule"
+		},
+		{
+			"file" : "/src/build/samtools-1.2+ion2-prefix/src/samtools-stamp/samtools-install.rule"
+		},
+		{
+			"file" : "/src/build/samtools-1.2+ion2-prefix/src/samtools-stamp/samtools-mkdir.rule"
+		},
+		{
+			"file" : "/src/build/samtools-1.2+ion2-prefix/src/samtools-stamp/samtools-download.rule"
+		},
+		{
+			"file" : "/src/build/samtools-1.2+ion2-prefix/src/samtools-stamp/samtools-update.rule"
+		},
+		{
+			"file" : "/src/build/samtools-1.2+ion2-prefix/src/samtools-stamp/samtools-patch.rule"
+		},
+		{
+			"file" : "/src/build/samtools-1.2+ion2-prefix/src/samtools-stamp/samtools-configure.rule"
+		},
+		{
+			"file" : "/src/build/samtools-1.2+ion2-prefix/src/samtools-stamp/samtools-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"samtools"
+		],
+		"name" : "samtools"
+	}
+}

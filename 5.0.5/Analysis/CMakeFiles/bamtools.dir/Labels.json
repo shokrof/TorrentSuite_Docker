@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/bamtools"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/bamtools.rule"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/bamtools-complete.rule"
+		},
+		{
+			"file" : "/src/build/bamtools-2.4.0.20150702+git15eadb925f-prefix/src/bamtools-stamp/bamtools-install.rule"
+		},
+		{
+			"file" : "/src/build/bamtools-2.4.0.20150702+git15eadb925f-prefix/src/bamtools-stamp/bamtools-mkdir.rule"
+		},
+		{
+			"file" : "/src/build/bamtools-2.4.0.20150702+git15eadb925f-prefix/src/bamtools-stamp/bamtools-download.rule"
+		},
+		{
+			"file" : "/src/build/bamtools-2.4.0.20150702+git15eadb925f-prefix/src/bamtools-stamp/bamtools-update.rule"
+		},
+		{
+			"file" : "/src/build/bamtools-2.4.0.20150702+git15eadb925f-prefix/src/bamtools-stamp/bamtools-patch.rule"
+		},
+		{
+			"file" : "/src/build/bamtools-2.4.0.20150702+git15eadb925f-prefix/src/bamtools-stamp/bamtools-configure.rule"
+		},
+		{
+			"file" : "/src/build/bamtools-2.4.0.20150702+git15eadb925f-prefix/src/bamtools-stamp/bamtools-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bamtools"
+		],
+		"name" : "bamtools"
+	}
+}

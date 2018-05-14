@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/picard"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/picard.rule"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/picard-complete.rule"
+		},
+		{
+			"file" : "/src/build/picard-1.130-prefix/src/picard-stamp/picard-install.rule"
+		},
+		{
+			"file" : "/src/build/picard-1.130-prefix/src/picard-stamp/picard-mkdir.rule"
+		},
+		{
+			"file" : "/src/build/picard-1.130-prefix/src/picard-stamp/picard-download.rule"
+		},
+		{
+			"file" : "/src/build/picard-1.130-prefix/src/picard-stamp/picard-update.rule"
+		},
+		{
+			"file" : "/src/build/picard-1.130-prefix/src/picard-stamp/picard-patch.rule"
+		},
+		{
+			"file" : "/src/build/picard-1.130-prefix/src/picard-stamp/picard-configure.rule"
+		},
+		{
+			"file" : "/src/build/picard-1.130-prefix/src/picard-stamp/picard-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"picard"
+		],
+		"name" : "picard"
+	}
+}

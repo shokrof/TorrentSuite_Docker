@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/cuda_toolkit"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/cuda_toolkit.rule"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/cuda_toolkit-complete.rule"
+		},
+		{
+			"file" : "/src/build/cuda_toolkit-8.0.44-21122537-prefix/src/cuda_toolkit-stamp/cuda_toolkit-install.rule"
+		},
+		{
+			"file" : "/src/build/cuda_toolkit-8.0.44-21122537-prefix/src/cuda_toolkit-stamp/cuda_toolkit-mkdir.rule"
+		},
+		{
+			"file" : "/src/build/cuda_toolkit-8.0.44-21122537-prefix/src/cuda_toolkit-stamp/cuda_toolkit-download.rule"
+		},
+		{
+			"file" : "/src/build/cuda_toolkit-8.0.44-21122537-prefix/src/cuda_toolkit-stamp/cuda_toolkit-update.rule"
+		},
+		{
+			"file" : "/src/build/cuda_toolkit-8.0.44-21122537-prefix/src/cuda_toolkit-stamp/cuda_toolkit-patch.rule"
+		},
+		{
+			"file" : "/src/build/cuda_toolkit-8.0.44-21122537-prefix/src/cuda_toolkit-stamp/cuda_toolkit-configure.rule"
+		},
+		{
+			"file" : "/src/build/cuda_toolkit-8.0.44-21122537-prefix/src/cuda_toolkit-stamp/cuda_toolkit-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cuda_toolkit"
+		],
+		"name" : "cuda_toolkit"
+	}
+}

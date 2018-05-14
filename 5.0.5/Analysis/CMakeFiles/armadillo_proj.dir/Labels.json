@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/armadillo_proj"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/armadillo_proj.rule"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/armadillo_proj-complete.rule"
+		},
+		{
+			"file" : "/src/build/armadillo-6.100.0+ion0-prefix/src/armadillo_proj-stamp/armadillo_proj-install.rule"
+		},
+		{
+			"file" : "/src/build/armadillo-6.100.0+ion0-prefix/src/armadillo_proj-stamp/armadillo_proj-mkdir.rule"
+		},
+		{
+			"file" : "/src/build/armadillo-6.100.0+ion0-prefix/src/armadillo_proj-stamp/armadillo_proj-download.rule"
+		},
+		{
+			"file" : "/src/build/armadillo-6.100.0+ion0-prefix/src/armadillo_proj-stamp/armadillo_proj-update.rule"
+		},
+		{
+			"file" : "/src/build/armadillo-6.100.0+ion0-prefix/src/armadillo_proj-stamp/armadillo_proj-patch.rule"
+		},
+		{
+			"file" : "/src/build/armadillo-6.100.0+ion0-prefix/src/armadillo_proj-stamp/armadillo_proj-configure.rule"
+		},
+		{
+			"file" : "/src/build/armadillo-6.100.0+ion0-prefix/src/armadillo_proj-stamp/armadillo_proj-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"armadillo_proj"
+		],
+		"name" : "armadillo_proj"
+	}
+}

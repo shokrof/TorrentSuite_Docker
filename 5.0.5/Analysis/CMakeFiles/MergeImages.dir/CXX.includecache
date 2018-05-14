@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/src/build/Analysis/IonVersion.cpp
+IonVersion.h
+/src/build/Analysis/IonVersion.h
+
+/src/build/Analysis/IonVersion.h
+string
+-
+

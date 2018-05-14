@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/eigen_proj"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/eigen_proj.rule"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/eigen_proj-complete.rule"
+		},
+		{
+			"file" : "/src/build/eigen-3.2.7-prefix/src/eigen_proj-stamp/eigen_proj-install.rule"
+		},
+		{
+			"file" : "/src/build/eigen-3.2.7-prefix/src/eigen_proj-stamp/eigen_proj-mkdir.rule"
+		},
+		{
+			"file" : "/src/build/eigen-3.2.7-prefix/src/eigen_proj-stamp/eigen_proj-download.rule"
+		},
+		{
+			"file" : "/src/build/eigen-3.2.7-prefix/src/eigen_proj-stamp/eigen_proj-update.rule"
+		},
+		{
+			"file" : "/src/build/eigen-3.2.7-prefix/src/eigen_proj-stamp/eigen_proj-patch.rule"
+		},
+		{
+			"file" : "/src/build/eigen-3.2.7-prefix/src/eigen_proj-stamp/eigen_proj-configure.rule"
+		},
+		{
+			"file" : "/src/build/eigen-3.2.7-prefix/src/eigen_proj-stamp/eigen_proj-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"eigen_proj"
+		],
+		"name" : "eigen_proj"
+	}
+}

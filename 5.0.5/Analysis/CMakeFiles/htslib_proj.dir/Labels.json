@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/htslib_proj"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/htslib_proj.rule"
+		},
+		{
+			"file" : "/src/build/Analysis/CMakeFiles/htslib_proj-complete.rule"
+		},
+		{
+			"file" : "/src/build/htslib-1.2.1+ion0-prefix/src/htslib_proj-stamp/htslib_proj-install.rule"
+		},
+		{
+			"file" : "/src/build/htslib-1.2.1+ion0-prefix/src/htslib_proj-stamp/htslib_proj-mkdir.rule"
+		},
+		{
+			"file" : "/src/build/htslib-1.2.1+ion0-prefix/src/htslib_proj-stamp/htslib_proj-download.rule"
+		},
+		{
+			"file" : "/src/build/htslib-1.2.1+ion0-prefix/src/htslib_proj-stamp/htslib_proj-update.rule"
+		},
+		{
+			"file" : "/src/build/htslib-1.2.1+ion0-prefix/src/htslib_proj-stamp/htslib_proj-patch.rule"
+		},
+		{
+			"file" : "/src/build/htslib-1.2.1+ion0-prefix/src/htslib_proj-stamp/htslib_proj-configure.rule"
+		},
+		{
+			"file" : "/src/build/htslib-1.2.1+ion0-prefix/src/htslib_proj-stamp/htslib_proj-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"htslib_proj"
+		],
+		"name" : "htslib_proj"
+	}
+}
