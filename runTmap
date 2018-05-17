@@ -3,4 +3,4 @@ ref=$1
 bamsTable=$2
 
 
-parallel --gnu -a $bamsTable --colsep $"\t" "tmap mapall  -n 32 -f $ref -r {1} -v -Y -u --prefix-exclude 5 -o 2  -J 25 --end-repair 15 --do-repeat-clip --context stage1 map4 2>> {2}.alignmentQC_out.txt.new | samtools sort -m 1000M -l1 -@12 - {2}"
+parallel --gnu -j 8 -a $bamsTable --colsep $"\t" "tmap mapall  -n 32 -f $ref -r {1} -v -Y -u --prefix-exclude 5 -o 2  -J 25 --end-repair 15 --do-repeat-clip --context stage1 map4 2>> {2}.alignmentQC_out.txt.new | samtools sort -m 1000M -l1 -@12 - {2}"
