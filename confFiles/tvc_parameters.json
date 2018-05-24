@@ -1,0 +1,97 @@
+{
+    "long_indel_assembler": {
+        "short_suffix_match": 5, 
+        "output_mnv": 0, 
+        "min_var_count": 5, 
+        "min_var_freq": "0.15", 
+        "min_indel_size": 4, 
+        "max_hp_length": 8, 
+        "relative_strand_bias": "0.8", 
+        "kmer_len": 19
+    }, 
+    "meta": {
+        "replaces": [
+            "germline_low_stringency_p1_540", 
+            "germline_low_stringency_proton"
+        ], 
+        "ts_version": "5.0", 
+        "name": "Generic - Proton P1 or S5/S5XL (540) - Germ Line - Low Stringency", 
+        "tmapargs": "tmap mapall ... -J 25 --end-repair 15 --do-repeat-clip --context stage1 map4", 
+        "tooltip": "Parameter settings optimized for high frequency variants and minimum false negatives on AmpliSeq libraries", 
+        "tvcargs": "tvc", 
+        "based_on": "ampliseqexome_germline_lowstringency_p1_parameters.json", 
+        "configuration": "germline_low_stringency_p1_540", 
+        "compatibility": {
+            "chip": [
+                "540", 
+                "proton_p1"
+            ], 
+            "frequency": [
+                "germline"
+            ], 
+            "stringency": [
+                "low"
+            ], 
+            "library": [
+                "ampliseq"
+            ]
+        }
+    }, 
+    "torrent_variant_caller": {
+        "snp_min_allele_freq": "0.1", 
+        "snp_strand_bias": "0.98", 
+        "hotspot_min_coverage": 6, 
+        "snp_strand_bias_pval": "0.01", 
+        "position_bias": "0.75", 
+        "hotspot_min_allele_freq": "0.1", 
+        "snp_min_variant_score": 15, 
+        "mnp_min_variant_score": 60, 
+        "hotspot_strand_bias": "0.95", 
+        "hp_max_length": 8, 
+        "filter_insertion_predictions": "0.2", 
+        "indel_min_variant_score": 20, 
+        "indel_min_coverage": 10, 
+        "heavy_tailed": 3, 
+        "outlier_probability": "0.01", 
+        "position_bias_ref_fraction": "0.05", 
+        "indel_strand_bias_pval": 1, 
+        "data_quality_stringency": 5, 
+        "snp_min_cov_each_strand": 0, 
+        "indel_as_hpindel": 1, 
+        "position_bias_pval": "0.05", 
+        "mnp_strand_bias": "0.98", 
+        "mnp_strand_bias_pval": "0.01", 
+        "hotspot_strand_bias_pval": 1, 
+        "hotspot_min_variant_score": 10, 
+        "sse_prob_threshold": "0.2", 
+        "do_mnp_realignment": 0, 
+        "indel_strand_bias": "0.9", 
+        "downsample_to_coverage": 400, 
+        "filter_unusual_predictions": "0.25", 
+        "indel_min_allele_freq": "0.25", 
+        "mnp_min_allele_freq": "0.1", 
+        "mnp_min_coverage": 5, 
+        "do_snp_realignment": 0, 
+        "mnp_min_cov_each_strand": 0, 
+        "hotspot_min_cov_each_strand": 3, 
+        "prediction_precision": 1, 
+        "indel_min_cov_each_strand": 5, 
+        "filter_deletion_predictions": "0.2", 
+        "realignment_threshold": 0, 
+        "suppress_recalibration": 0, 
+        "snp_min_coverage": 5, 
+        "use_position_bias": 1
+    }, 
+    "freebayes": {
+        "gen_min_coverage": 5, 
+        "allow_mnps": 1, 
+        "allow_complex": 0, 
+        "read_max_mismatch_fraction": 1, 
+        "read_snp_limit": 10, 
+        "allow_indels": 1, 
+        "min_mapping_qv": 4, 
+        "gen_min_alt_allele_freq": "0.1", 
+        "allow_snps": 1, 
+        "gen_min_indel_alt_allele_freq": "0.15"
+    }
+}
