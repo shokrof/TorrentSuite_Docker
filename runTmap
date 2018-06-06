@@ -5,4 +5,4 @@ noThreads=$3
 
 noTmaps=$(( $noThreads/4 ))
 
-parallel --gnu -j $noTmaps -a $bamsTable --colsep $"\t" "tmap mapall  -n 4 -f $ref -r {1} -v -Y -u --prefix-exclude 5 -o 2  -J 25 --end-repair 15 --do-repeat-clip --context stage1 map4 2>> {2}.alignmentQC_out.txt.new | samtools sort -m 1000M -l1 -@12 - {2}"
+parallel --gnu -j $noTmaps -a $bamsTable --colsep $"\t" "tmap mapall  -n 4 -f $ref -r {1} -v -Y -u --prefix-exclude 5 -o 2  -J 25 --end-repair 15 --do-repeat-clip --context stage1 map4 2>> {2}.alignmentQC_out.txt.new | samtools sort -m 1000M -l1 -@12 -o {2}.bam -"
