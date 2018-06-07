@@ -13,6 +13,6 @@ picardMergeSamFiles  $headers O=$bamOut.header.sam VERBOSITY=WARNING QUIET=true 
 bams=$( cat  $bamsInput | tr -s $'\n' ' ' )
 
 
-samtools cat -h $bamOut.header.sam -o /dev/stdout $bams | tmap mapall -n  $noThreads  -f $ref -i bam -v -Y -u --prefix-exclude 5 -o 2  -J 25 --end-repair 15 --do-repeat-clip --context stage1 map4 2>> $bamOut.new.alignmentQC_out.txt | samtools sort -m 1000M -l1 -@12 -o $bamOut.bam -
+samtools cat -h $bamOut.header.sam -o /dev/stdout $bams | tmap mapall -n  $noThreads  -f $ref -i bam -v -Y -u --prefix-exclude 5 -o 2  -J 25 --end-repair 15 --do-repeat-clip --context stage1 map4 2>> $bamOut.new.alignmentQC_out.txt | samtools sort -m 1000M -l1 -@12 -o $bamOut -
 
-samtools index $bamOut.bam
+samtools index $bamOut
